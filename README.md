@@ -1,0 +1,2 @@
+# com.castsoftware.labs.tools.externalmarker
+This extension applies to objects of certain metamodel types. They can be defined in option 'com.castsoftware.labs.tools.externalmarker:PROCESSED_TYPES' in table SYS_SITE_OPTIONS. Else the default types will be processed. The default types are Java Instantiated Class, Java Instantiated Interface, Java Instantiated Method, Java Instantiated Constructor. The extension marks as external all objects of the processed types which do not have any internal root ancestor. A root is an object that has no parent.
